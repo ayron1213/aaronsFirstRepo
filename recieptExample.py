@@ -32,7 +32,7 @@ for item in budgetItems:
 
 
 
-
+# Aaron! You forgot to add highestPrice!
 receipt = f"""
 ---------TRANSACTION SUMMARY---------
 Budget Item List: {sorted(budgetItems)}
@@ -41,6 +41,7 @@ Subtotal (Before Tax): ${subTotal:.2f}
 Total After Tax: ${totalSum:.2f}
 Budget Item Subtotal: ${budgetItemSubtotal:.2f}
 Lowest Priced Item: ${lowestPrice}
+Highest Priced Item
 ---------THANK YOU FOR SHOPPING HERE---------"""
 
 print(receipt)
